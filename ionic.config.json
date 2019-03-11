@@ -1,5 +1,7 @@
 {
   "name": "Lenin",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
