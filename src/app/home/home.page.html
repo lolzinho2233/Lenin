@@ -1,15 +1,21 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>PIOR APP DA SALA, BOSTA</ion-title>
-  </ion-toolbar>
 </ion-header>
-
 <ion-content>
-  {{ nome }}
-<ion-img src= "https://i.imgur.com/G6WLFON.jpg"></ion-img>
-<ion-button (click) = "clicar()"> ok </ion-button>
+  <ion-card>
+    <ion-card-header>
+      Cute cat!!
+    </ion-card-header>
+    <ion-card-content>
+      <ion-img src = "https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F803532%252Fdf7ecee9-38d5-44f6-b89c-7956598e5842.png%252Ffit-in__1200x9600.png?signature=zYzMaNbAI6Md7cYVYXqtxmYc0rk=&source=https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com">
+      </ion-img>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-input [(ngModel)]="valor1">
+  </ion-input>
+  <ion-input [(ngModel)]="valor2">
+  </ion-input>
+  <ion-button (click) ="clicar()">
+    OK
+  </ion-button>
 </ion-content>
-
-<ion-footer>
-
-</ion-footer>
